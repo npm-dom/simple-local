@@ -11,7 +11,7 @@ var debug = require('debug');
  * Get the current value.
  *
  * @param {String} key
- * @return {Object[]}
+ * @return {Any}
  * @api public
  */
 
@@ -28,6 +28,7 @@ exports.get = function(key) {
 /**
  * Update the current val.
  *
+ * @param {String} key
  * @param {Any} value
  * @api public
  */
@@ -48,6 +49,7 @@ exports.set = function(key, val) {
  * Get an object from localStorage
  *
  * @param {String} key
+ * @return {Any}
  * @api private
  */
 
