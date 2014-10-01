@@ -3,7 +3,7 @@
 [![build status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
 
-Simple event emitting wrapper for localStorage. Makes dealing with localStorage
+Simple wrapper for localStorage. Makes dealing with localStorage
 less tedious. Calls `JSON.parse` and `JSON.stringify` for you and enables a
 smooth debugging experience.
 
