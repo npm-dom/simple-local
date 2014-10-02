@@ -5,7 +5,7 @@
  */
 
 var assert = require('assert');
-var debug = require('debug');
+var debug = require('debug')('simple-local');
 
 /**
  * Get the current value.
@@ -21,7 +21,7 @@ exports.get = function(key) {
 
   var val = _get(key);
 
-  this.debug('get ', val);
+  debug('get ', val);
   return val;
 };
 
@@ -41,7 +41,7 @@ exports.set = function(key, val) {
   var oldVal = _get(key);
   var newVal = JSON.stringify(val)
 
-  this.debug('set ', newVal, oldVal);
+  debug('set ', newVal, oldVal);
   window.localStorage[key] = newVal;
 };
 

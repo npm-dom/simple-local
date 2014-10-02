@@ -21,6 +21,12 @@ user.get('myKey')
 // => {foo: 'bar', bin: 'baz'}
 ```
 
+## Debugging
+To enable debugging open your browser's console and set:
+```
+❯ localStorage.debug = 'simple-local';
+```
+
 ## API
 #### .set(value)
 Set the store to contain a value at key.
