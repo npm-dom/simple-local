@@ -21,8 +21,8 @@ user.get('myKey')
 // => {foo: 'bar', bin: 'baz'}
 ```
 
-## Debugging
-To enable debugging open your browser's console and set:
+## Debug
+To enable debugging set in the browser console:
 ```
 ❯ localStorage.debug = 'simple-local';
 ```

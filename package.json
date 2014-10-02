@@ -1,6 +1,6 @@
 {
   "name": "simple-local",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple wrapper for localStorage. Makes dealing with localStorage less tedious.",
   "main": "index.js",
   "scripts": {
