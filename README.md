@@ -4,13 +4,14 @@
 [![Test coverage][coveralls-image]][coveralls-url]
 
 Simple wrapper for localStorage. Makes dealing with localStorage
-less tedious. Calls `JSON.parse` and `JSON.stringify` for you and enables a
-smooth debugging experience.
+less tedious. Calls `JSON.parse` and `JSON.stringify` for you and uses `debug`
+under the hood to create a smooth debugging experience.
 
 ## Installation
 ```bash
-$ npm i --save simple-local
+npm install simple-local
 ```
+
 ## Overview
 ```js
 var local = require('simple-local');
@@ -23,8 +24,8 @@ user.get('myKey')
 
 ## Debug
 To enable debugging set in the browser console:
-```
-❯ localStorage.debug = 'simple-local';
+```js
+localStorage.debug = 'simple-local';
 ```
 
 ## API
@@ -44,8 +45,7 @@ store.get('config');
 ```
 
 ## License
-[MIT](https://tldrlegal.com/license/mit-license) ©
-[Yoshua Wuyts](yoshuawuyts.com)
+[MIT](https://tldrlegal.com/license/mit-license)
 
 [npm-image]: https://img.shields.io/npm/v/simple-local.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/simple-local
