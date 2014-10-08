@@ -49,7 +49,7 @@ store.get('config');
 
 [npm-image]: https://img.shields.io/npm/v/simple-local.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/simple-local
-[travis-image]: https://img.shields.io/travis/yoshuawuyts/simple-local.svg?style=flat-square
-[travis-url]: https://travis-ci.org/yoshuawuyts/simple-local
-[coveralls-image]: https://img.shields.io/coveralls/yoshuawuyts/simple-local.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/r/yoshuawuyts/simple-local?branch=master
+[travis-image]: https://img.shields.io/travis/npm-dom/simple-local.svg?style=flat-square
+[travis-url]: https://travis-ci.org/npm-dom/simple-local
+[coveralls-image]: https://img.shields.io/coveralls/npm-dom/simple-local.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/npm-dom/simple-local?branch=master
