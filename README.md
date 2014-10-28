@@ -18,7 +18,7 @@ var local = require('simple-local');
 
 local.set('myKey', {foo: 'bar', bin: 'baz'});
 
-user.get('myKey')
+local.get('myKey')
 // => {foo: 'bar', bin: 'baz'}
 ```
 
