@@ -17,7 +17,7 @@ var debug = require('debug')('simple-local');
 
 exports.get = function(key) {
   assert(window.localStorage, 'simple-local: window.localStorage should exist');
-  assert(typeof key, 'string', 'simple-local: namespace should be a string');
+  assert.equal(typeof key, 'string', 'simple-local: namespace should be a string');
 
   var val = _get(key);
 
